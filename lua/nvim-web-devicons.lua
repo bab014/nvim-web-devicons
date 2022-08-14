@@ -579,7 +579,7 @@ local icons = {
     name = "BinaryGLTF",
   },
   ["go"] = {
-    icon = " ",
+    icon = "",
     color = "#00ADD8",
     cterm_color = "67",
     name = "Go",
@@ -831,7 +831,7 @@ local icons = {
     name = "Mli",
   },
   ["mod"] = {
-    icon = " ",
+    icon = "",
     color = "#ce3262",
     cterm_color = "167",
     name = "Mod",
