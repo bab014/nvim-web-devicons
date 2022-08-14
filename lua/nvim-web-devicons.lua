@@ -166,8 +166,8 @@ local icons = {
     name = "License",
   },
   ["Dockerfile"] = {
-    icon = "",
-    color = "#384d54",
+    icon = "",
+    color = "#0db7ed",
     cterm_color = "59",
     name = "Dockerfile",
   },
@@ -227,7 +227,7 @@ local icons = {
   },
   ["bash"] = {
     icon = "",
-    color = "#89e051",
+    color = "#FFF",
     cterm_color = "113",
     name = "Bash",
   },
@@ -430,8 +430,8 @@ local icons = {
     name = "Doc",
   },
   ["dockerfile"] = {
-    icon = "",
-    color = "#384d54",
+    icon = "",
+    color = "#0db7ed",
     cterm_color = "59",
     name = "Dockerfile",
   },
@@ -579,8 +579,8 @@ local icons = {
     name = "BinaryGLTF",
   },
   ["go"] = {
-    icon = "",
-    color = "#519aba",
+    icon = " ",
+    color = "#00ADD8",
     cterm_color = "67",
     name = "Go",
   },
@@ -657,7 +657,7 @@ local icons = {
     name = "Htm",
   },
   ["html"] = {
-    icon = "",
+    icon = "",
     color = "#e34c26",
     cterm_color = "166",
     name = "Html",
@@ -711,8 +711,8 @@ local icons = {
     name = "Jpg",
   },
   ["js"] = {
-    icon = "",
-    color = "#cbcb41",
+    icon = "",
+    color = "#f7df1e",
     cterm_color = "185",
     name = "Js",
   },
@@ -829,6 +829,12 @@ local icons = {
     color = "#e37933",
     cterm_color = "173",
     name = "Mli",
+  },
+  ["mod"] = {
+    icon = " ",
+    color = "#ce3262",
+    cterm_color = "167",
+    name = "Mod",
   },
   ["mustache"] = {
     icon = "",
@@ -1366,6 +1372,7 @@ local filetypes = {
   ["material"] = "material",
   ["mdx"] = "mdx",
   ["mint"] = "mint",
+  ["mod"] = "Mod",
   ["mustache"] = "mustache",
   ["nim"] = "nim",
   ["nix"] = "nix",
@@ -1436,7 +1443,7 @@ local filetypes = {
 
 local default_icon = {
   icon = "",
-  color = "#6d8086",
+  color = "#fefefe",
   cterm_color = "66",
   name = "Default",
 }
